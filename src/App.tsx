@@ -6,10 +6,6 @@ function App() {
   return (
     <>
       <Header/>
-      <div className="App bg-primary">
-      hello world
-      
-      </div>
     </>
   )
 }

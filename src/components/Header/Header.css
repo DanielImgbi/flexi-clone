@@ -1,0 +1,38 @@
+
+@media (max-width: 790px){
+    .nav{
+        width: 100vw;
+    }
+    .nav-ul{
+        display: none;
+    }
+
+}
+
+@media (min-width: 790px){
+
+    .nav{
+        width: 100vw;
+        /* background-color: red; */
+        padding: 40px 40px;
+    }
+    .brand-con{
+        margin-left:70px ;
+
+    }
+    .nav-ul{
+        display: flex;
+    }
+    .my-btn{
+        margin-left: 20px ;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+        border-bottom-right-radius:15px;
+        border: none;
+    }
+    .btn{
+        border-bottom-right-radius: none;
+        color: red;
+        display: none;       
+    }
+}
