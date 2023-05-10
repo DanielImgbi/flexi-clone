@@ -1,6 +1,8 @@
 import React from 'react';
-import { Nav, NavbarBrand, Button} from 'react-bootstrap';
+import { Nav, NavbarBrand } from 'react-bootstrap';
 import './Header.css';
+import Button from '../Button/Button';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
@@ -8,20 +10,20 @@ const Header = () => {
     <Nav className='nav d-flex justify-content-between py-3'>
       <Nav.Item className='brand-con'>
         <NavbarBrand>
-          <Nav.Link> <img src="/flexisaf-imagery/Chrome-Images/606c20478671192ef5a51ff0_fs-logo.svg" alt="logo" /></Nav.Link>
+          <Link to='/'> <img src="/flexisaf-imagery/Chrome-Images/606c20478671192ef5a51ff0_fs-logo.svg" alt="logo" /></Link>
         </NavbarBrand>
       </Nav.Item>
 
       <Nav.Item >
 
-        <div className='nav-ul'>
+        <div className='nav-ul nav-item text-black'>
+          <span className="list-item"><Link to='/#company' className='nav-link text-black'>Company</Link></span>
+          <span className="list-item"><Link to='/product' className='nav-link'>Product</Link></span>
+          <span className="list-item" ><Link to='/career' className='nav-link'>Career</Link></span>
+          <span className="list-item"><Link to='/blog' className='nav-link'>Blog</Link></span>
+      
 
-          <Nav.Link className='text-black'>Company</Nav.Link>
-          <Nav.Link className='text-black'>Product</Nav.Link>
-          <Nav.Link className='text-black'>Career</Nav.Link>
-          <Nav.Link className='text-black'>Blog</Nav.Link>
-
-          <button className="my-btn px-4 py-2 text-white bg-primary">Contact us</button>
+          <Button name='Contact Us' handleClick={() => console.log("contact us button clicked")}/>
         </div>
       </Nav.Item>
 

@@ -2,9 +2,17 @@
 @media (max-width: 790px){
     .nav{
         width: 100vw;
+        position: relative;
     }
     .nav-ul{
+        width: 100%;
         display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: whitesmoke;
+        font-weight: 500;
+        padding: 0 20px;
     }
 
 }
@@ -22,13 +30,7 @@
     }
     .nav-ul{
         display: flex;
-    }
-    .my-btn{
-        margin-left: 20px ;
-        border-bottom-left-radius: 15px;
-        border-top-left-radius: 15px;
-        border-bottom-right-radius:15px;
-        border: none;
+        font-weight: 600;
     }
     .btn{
         border-bottom-right-radius: none;

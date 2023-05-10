@@ -1,13 +1,10 @@
-import Header from "./components/Header/Header"
+import { RouterProvider } from "react-router-dom";
+import rt from "./pages";
 
 function App() {
   
 
-  return (
-    <>
-      <Header/>
-    </>
-  )
+  return ( <RouterProvider router={rt} />  )
 }
 
 export default App
