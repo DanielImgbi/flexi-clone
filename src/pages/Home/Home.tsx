@@ -1,9 +1,8 @@
 import './Home.css'
 import { Row, Col } from 'react-bootstrap';
 import Button from '../../components/Button/Button';
-import Product from '../../components/secondary/Product'
-import Solution from '../../components/secondary/Solution'
-
+import Products from '../../components/secondary/Products';
+import Solution from '../../components/secondary/solution';
 
 const Home = () => {
   return (
@@ -31,7 +30,7 @@ const Home = () => {
           </div>
         </div>
       
-        <Product />
+        <Products />
         <Solution />
 
        

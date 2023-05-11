@@ -1,7 +1,7 @@
 import React from 'react';
-import { Row, Col } from 'react-router-dom'
+import { Row, Col } from 'react-bootstrap'
 
-const solution = () => {
+const Solution = () => {
   return (
     <div className="solution-to-stakeholders bg-warning">
     <div className="container text-center">
@@ -61,4 +61,4 @@ const solution = () => {
   )
 }
 
-export default solution
+export default Solution
