@@ -2,7 +2,11 @@ import './Home.css'
 import { Row, Col } from 'react-bootstrap';
 import Button from '../../components/Button/Button';
 import Products from '../../components/secondary/Products';
+<<<<<<< HEAD
 import Solution from '../../components/secondary/Solution';
+=======
+import Solution from '../../components/secondary/solution';
+>>>>>>> 481e93643250958e8f348de3005321d6d305ba55
 
 const Home = () => {
   return (
